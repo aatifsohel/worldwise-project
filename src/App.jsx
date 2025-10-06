@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Route, Routes, BrowserRouter } from "react-router";
+import { Route, Routes, BrowserRouter, Navigate } from "react-router";
 
 import Product from "./pages/Product";
 import Homepage from "./pages/Homepage";
@@ -10,6 +10,7 @@ import PageNotFound from "./pages/PageNotFound";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
 import City from "./components/City";
+import Form from "./components/Form";
 
 const BASE_URL = "http://localhost:8000";
 
@@ -45,11 +46,7 @@ function App() {
 
         {/* Nested Routes & we use <Outlet> where we want to use this navs */}
         <Route path="app" element={<AppLayout />}>
-          {/* index for directly rendering when at /app url */}
-          <Route
-            index
-            element={<CityList cities={cities} isLoading={isLoading} />}
-          />
+          <Route index element={<Navigate to="cities" />} />
           <Route
             path="cities"
             element={<CityList cities={cities} isLoading={isLoading} />}
@@ -60,7 +57,7 @@ function App() {
             path="countries"
             element={<CountryList cities={cities} isLoading={isLoading} />}
           />
-          <Route path="form" element={<p>Form</p>} />
+          <Route path="form" element={<Form />} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
