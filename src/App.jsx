@@ -23,7 +23,7 @@ function App() {
 
         setCities(data);
       } catch (err) {
-        console.err("There was an error when loading data...");
+        console.error("There was an error when loading data...");
       } finally {
         setIsLoading(false);
       }
