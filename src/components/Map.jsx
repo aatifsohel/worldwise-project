@@ -25,7 +25,7 @@ const flagemojiToPNG = flag => {
 
 function Map() {
   const { cities } = useCities();
-  const [mapPosition, setMapPosition] = useState([40, 0]);
+  const [mapPosition, setMapPosition] = useState([19, 72]);
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
