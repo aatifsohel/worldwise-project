@@ -25,19 +25,6 @@
       "id": "17806751"
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-<<<<<<< HEAD
       "id": "3420",
       "cityName": "Mumbai",
       "country": "India",
@@ -71,101 +58,6 @@
       "position": {
         "lat": "28.598910896293813",
         "lng": "77.21707888057898"
-=======
-      "id": "4ce5",
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-10-22T18:02:23.823Z",
-      "notes": "test",
-      "position": {
-        "lat": "39.98672215736636",
-        "lng": "-0.03948211669921876"
-      }
-    },
-    {
-      "id": "aa42",
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-10-22T18:02:56.242Z",
-      "notes": "",
-      "position": {
-        "lat": "39.97541000119306",
-        "lng": "-0.06935119628906251"
-      }
-    },
-    {
-      "id": "fd9c",
-      "cityName": "l'Alcora",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-10-22T18:02:56.242Z",
-      "notes": "city",
-      "position": {
-        "lat": "40.071240896874585",
-        "lng": "-0.22521972656250003"
-      }
-    },
-    {
-      "id": "be49",
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-10-22T18:06:13.829Z",
-      "notes": "",
-      "position": {
-        "lat": "40.009603815001704",
-        "lng": "0.0010299682617187502"
-      }
-    },
-    {
-      "id": "bc10",
-      "cityName": "Peixoto de Azevedo",
-      "country": "Brazil",
-      "emoji": "🇧🇷",
-      "date": "2025-10-22T18:06:44.209Z",
-      "notes": "",
-      "position": {
-        "lat": "-10.531020008464976",
-        "lng": "-53.12988281250001"
-      }
-    },
-    {
-      "id": "2a41",
-      "cityName": "Fresnillo",
-      "country": "Mexico",
-      "emoji": "🇲🇽",
-      "date": "2025-10-22T18:07:20.477Z",
-      "notes": "",
-      "position": {
-        "lat": "23.241346102386135",
-        "lng": "-103.18359375000001"
-      }
-    },
-    {
-      "id": "780a",
-      "cityName": "Township of Lincoln",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "date": "2025-10-22T18:09:36.065Z",
-      "notes": "",
-      "position": {
-        "lat": "39.90973623453719",
-        "lng": "-100.19531250000001"
-      }
-    },
-    {
-      "id": "1c2d",
-      "cityName": "Tchirozerine",
-      "country": "Niger (the)",
-      "emoji": "🇳🇪",
-      "date": "2025-10-22T18:11:57.814Z",
-      "notes": "",
-      "position": {
-        "lat": "17.811456088564483",
-        "lng": "8.613281250000002"
->>>>>>> a52a998d6577af8081762a75f71234923407199e
       }
     }
   ]
