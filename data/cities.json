@@ -37,18 +37,6 @@
       }
     },
     {
-      "id": "f53a",
-      "cityName": "Thane",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-10-22T18:26:00.196Z",
-      "notes": "test\n",
-      "position": {
-        "lat": "19.19580012309979",
-        "lng": "72.99444054205867"
-      }
-    },
-    {
       "id": "ba91",
       "cityName": "Delhi",
       "country": "India",
@@ -58,6 +46,18 @@
       "position": {
         "lat": "28.598910896293813",
         "lng": "77.21707888057898"
+      }
+    },
+    {
+      "id": "7e68",
+      "cityName": "Lilia",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-10-23T14:17:35.731Z",
+      "notes": "",
+      "position": {
+        "lat": "21.555284406923192",
+        "lng": "71.37817382812501"
       }
     }
   ]
