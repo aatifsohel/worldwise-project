@@ -1,30 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
       "id": "3420",
       "cityName": "Mumbai",
       "country": "India",
@@ -34,42 +10,6 @@
       "position": {
         "lat": "19.036156118717336",
         "lng": "72.86407470703126"
-      }
-    },
-    {
-      "id": "ba91",
-      "cityName": "Delhi",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-10-10T18:26:35.000Z",
-      "notes": "test",
-      "position": {
-        "lat": "28.598910896293813",
-        "lng": "77.21707888057898"
-      }
-    },
-    {
-      "id": "3767",
-      "cityName": "Amravati",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-10-23T14:37:51.939Z",
-      "notes": "Home",
-      "position": {
-        "lat": "20.933223966231118",
-        "lng": "77.76809692382814"
-      }
-    },
-    {
-      "id": "d51e",
-      "cityName": "Daryapur",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-10-23T14:38:34.597Z",
-      "notes": "Base",
-      "position": {
-        "lat": "20.92424514494794",
-        "lng": "77.33139038085939"
       }
     }
   ]
