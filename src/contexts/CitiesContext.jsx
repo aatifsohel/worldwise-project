@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useReducer } from "react";
-import { useEffect, useState, createContext, useContext } from "react";
+import { useEffect, createContext, useContext } from "react";
 
 const BASE_URL = "http://localhost:8000";
 
@@ -126,7 +126,7 @@ function CitiesProvider({ children }) {
   async function deleteCity(id) {
     dispatch({ type: "loading" });
     try {
-      const res = await fetch(`${BASE_URL}/cities/${id}`, {
+      await fetch(`${BASE_URL}/cities/${id}`, {
         method: "DELETE",
       });
       dispatch({ type: "city/deleted", payload: id });
